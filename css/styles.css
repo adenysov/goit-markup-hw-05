@@ -650,6 +650,68 @@ nav {
   transform: translateY(0%);
 }
 
+/* new */
+.footer-subscribe-form {
+  display: block;
+  margin-left: 80px;
+}
+
+.footer-subscribe-form-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.form-input-footer {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-email-input {
+  width: 264px;
+  height: 40px;
+  color: var(--main-text-color-light);
+  border: 1px solid var(--main-text-color-light);
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-text-color-light);
+  background-color: var(--main-button-background-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-subscribe-form-icon {
+  margin-left: 16px;
+  fill: currentColor;
+}
+
+.footer-submit-button:focus,
+.footer-submit-button:hover {
+  background-color: var(--secondary-button-hover-background-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Popup modal window */
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
@@ -678,6 +740,10 @@ nav {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
 }
 
 .modal-btn {
@@ -761,75 +827,7 @@ nav {
 }
 */
 
-/* new */
-.footer-subscribe-form {
-  display: block;
-  margin-left: 80px;
-}
-
-.footer-subscribe-form-title {
-  margin-bottom: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.form-input-footer {
-  display: flex;
-  gap: 24px;
-}
-
-.footer-email-input {
-  width: 264px;
-  height: 40px;
-  color: var(--main-text-color-light);
-  border: 1px solid var(--main-text-color-light);
-  background-color: transparent;
-  border-radius: 4px;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.footer-submit-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 165px;
-  height: 40px;
-  font-family: var(--main-font);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--main-text-color-light);
-  background-color: var(--main-button-background-color);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.footer-subscribe-form-icon {
-  margin-left: 16px;
-  fill: currentColor;
-}
-
-.footer-submit-button:focus,
-.footer-submit-button:hover {
-  background-color: var(--secondary-button-hover-background-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* MODAL STYLES */
-.modal-window {
-  padding-top: 72px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-}
 
 .modal-window-title {
   font-size: 16px;
