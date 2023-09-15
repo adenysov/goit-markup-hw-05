@@ -761,3 +761,54 @@ nav {
   margin-bottom: 8px;
 }
 
+/* new */
+.footer-subscribe-form {
+  display: block;
+  margin-left: 80px;
+}
+
+.footer-subscribe-form-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+
+.form-input-footer {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-email-input {
+width: 264px;
+height: 40px;
+  color: var(--main-text-color-light);
+  border: 1px solid var(--main-text-color-light);
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+
+}
+
+.footer-submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--main-text-color-light);
+   cursor: pointer;
+   background-color: var(--main-button-background-color);
+   border: none;
+   border-radius: 4px;
+}
