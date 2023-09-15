@@ -808,6 +808,7 @@ nav {
   background-color: var(--main-button-background-color);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .footer-subscribe-form-icon {
@@ -819,5 +820,4 @@ nav {
 .footer-submit-button:hover {
   background-color: var(--secondary-button-hover-background-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
