@@ -495,6 +495,11 @@
             </li>
           </ul>
         </div>
+        <div class="subscrive-form">
+          <p>Subscribe</p>
+          <input type="mail" placeholder="E-mail" />
+          <button type="submit">Subscribe</button>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -504,6 +509,44 @@
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
+        <h2 class="modal-window-title">
+          Leave your contacts and we will call you back
+        </h2>
+        <form class="modal-form" name="modal-contact-form">
+          <div class="field">
+            <label class="modal-form-input"
+              >Name<input class="form-input" type="text" name="user-name" />
+            </label>
+          </div>
+          <div class="field">
+            <label class="modal-form-input"
+              >Phone<input type="tel" name="user-phone" />
+            </label>
+          </div>
+          <div class="field">
+            <label class="modal-form-input"
+              >Email<input type="mail" name="user-email" />
+            </label>
+          </div>
+          <div class="field">
+            <label class="modal-form-input"
+              >Comment<textarea
+                name="user-comment"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+          <div class="privacy-policy">
+            <input type="checkbox" />
+            <p>
+              I accept the terms and conditions of the
+              <span>
+                <a href=""> Privacy Policy</a>
+              </span>
+            </p>
+            <button class="modal-btn-main" type="submit">Send</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js" type="module"></script>

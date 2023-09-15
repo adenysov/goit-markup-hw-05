@@ -722,3 +722,42 @@ nav {
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-window-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 72px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: ;
+  letter-spacing: 0.02em;
+}
+
+.form {
+  display flex;
+  flex-direction: column;
+}
+
+.modal-form-input {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #8E8F99;
+  font-size: 12px;
+}
+
+.modal-btn-submit {
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.field {
+  margin-bottom: 8px;
+}
+
