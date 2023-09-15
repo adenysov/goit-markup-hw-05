@@ -733,12 +733,11 @@ nav {
   padding-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
-  line-height: ;
   letter-spacing: 0.02em;
 }
 
 .form {
-  display flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -748,7 +747,7 @@ nav {
   text-align: flex-start;
   padding-left: 24px;
   padding-right: 24px;
-  color: #8E8F99;
+  color: #8e8f99;
   font-size: 12px;
 }
 
@@ -771,8 +770,8 @@ nav {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .form-input-footer {
@@ -781,8 +780,8 @@ nav {
 }
 
 .footer-email-input {
-width: 264px;
-height: 40px;
+  width: 264px;
+  height: 40px;
   color: var(--main-text-color-light);
   border: 1px solid var(--main-text-color-light);
   background-color: transparent;
@@ -791,8 +790,7 @@ height: 40px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
-
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footer-submit-button {
@@ -804,11 +802,11 @@ height: 40px;
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 500;
-   line-height: 1.5;
-   letter-spacing: 0.04em;
-   color: var(--main-text-color-light);
-   cursor: pointer;
-   background-color: var(--main-button-background-color);
-   border: none;
-   border-radius: 4px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-text-color-light);
+  cursor: pointer;
+  background-color: var(--main-button-background-color);
+  border: none;
+  border-radius: 4px;
 }
