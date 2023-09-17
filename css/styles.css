@@ -880,6 +880,10 @@ nav {
   resize: none;
 }
 
+.modal-form-field-comments-wrapper {
+  margin-bottom: 16px;
+}
+
 .modal-form-input-fields:focus {
   border-color: var(--main-icons-background-color);
 }
