@@ -884,9 +884,9 @@ nav {
   margin-bottom: 16px;
 }
 
-.modal-form-input-fields:focus {
+/* .modal-form-input-fields:focus {
   border-color: var(--main-icons-background-color);
-}
+} */
 
 .modal-field-icon {
   position: absolute;
@@ -896,7 +896,17 @@ nav {
   fill: currentColor;
 }
 
-.modal-field-icon:hover,
-.modal-field-icon:focus {
-  color: #4d5ae5;
+.modal-form-input-fields-styles:focus {
+  border-color: #4d5ae5;
 }
+
+/* .modal-form-input-fields-styles:hover,
+.modal-form-input-fields-styles:focus,
+.modal-form-input-field-option:hover,
+.modal-form-input-field-option:focus 
+
+.modal-form-input-fields-styles:.modal-field-icon:visited {
+  color: currentColor;
+}
+
+*/
