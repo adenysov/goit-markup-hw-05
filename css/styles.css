@@ -893,4 +893,10 @@ nav {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  fill: currentColor;
+}
+
+.modal-field-icon:hover,
+.modal-field-icon:focus {
+  color: #4d5ae5;
 }
