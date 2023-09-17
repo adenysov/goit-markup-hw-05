@@ -955,6 +955,14 @@ nav {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
 }
+
+.modal-submit-btn:focus,
+.modal-submit-btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary-button-hover-background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 /* .modal-form-input-fields-styles:focus + .modal-field-icon {
   stroke: #4d5ae5;
 }
