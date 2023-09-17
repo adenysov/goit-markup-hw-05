@@ -893,7 +893,6 @@ nav {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: currentColor;
 }
 
 .modal-form-input-fields-styles:focus {
