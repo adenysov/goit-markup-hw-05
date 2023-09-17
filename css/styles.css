@@ -906,6 +906,7 @@ nav {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
   outline: transparent;
+  fill: currentColor;
 }
 
 .modal-form-input-fields-styles:focus {
@@ -913,7 +914,7 @@ nav {
 }
 
 .modal-form-input-fields-styles:focus + .modal-field-icon {
-  stroke: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-form-input-fields-comments:focus {
@@ -992,8 +993,4 @@ nav {
 
 .input[type="checkbox"]:checked {
   box-shadow: 0 0 0 6px #2e2f42;
-}
-
-.icon-check {
-  fill: black;
 }
