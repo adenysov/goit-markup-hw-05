@@ -953,6 +953,7 @@ nav {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
 /* .modal-form-input-fields-styles:focus + .modal-field-icon {
   stroke: #4d5ae5;
