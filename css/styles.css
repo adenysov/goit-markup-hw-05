@@ -947,6 +947,16 @@ nav {
   fill: transparent;
 }
 
+.modal-agreement-checkbox {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  justify-content: center;
+  fill: #f4f4fd;
+  background-color: #404bbf;
+}
+
 .privacy-policy-link {
   color: #4d5ae5;
 }
@@ -991,6 +1001,16 @@ nav {
 
 */
 
-.input[type="checkbox"]:checked {
-  box-shadow: 0 0 0 6px #2e2f42;
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 6px rgba(46, 47, 66, 0.16);
+  fill: #f4f4fd;
+  border: none;
+  background-color: #404bbf;
+  border: 22px solid #2e2f42;
+}
+
+input[type="checkbox"]:checked ~ .modal-agreement-label-policy {
+  background-color: red;
+  color: red;
+  fill: red;
 }
